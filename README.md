@@ -1,5 +1,5 @@
 # VacationSuggester
-Vacation Suggester - JavaScript &amp; jQuery Independent Project
+Vacation Suggester - a JavaScript &amp; jQuery Independent Project
 
 &copy; Copyright 2019-2019 Andrea Szaboova (alias Adka28)
 
