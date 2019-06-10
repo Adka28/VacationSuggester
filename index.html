@@ -70,19 +70,15 @@
                             <option value="Gold">Gold</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                            <label for="durationRadios">How long?</label>
-                        <div class="form-check" id="durationRadios">
-                            <input id="duration1" class="form-check-input" type="radio" name="duration" value="short" checked>
-                            <label for="duration1" class="form-check-label">Short trip</label>
-                        </div>
-                        <div class="form-check">
-                            <input id="duration2" class="form-check-input" type="radio" name="duration" value="weekend">
-                            <label for="duration2" class="form-check-label">Weekend</label>
-                        </div>
-                        <div class="form-check">
-                            <input id="duration1" class="form-check-input" type="radio" name="duration" value="vacation">
+                    <div class="form-group" id="durationGroup">
+                        <label for="vacationRadio">How long?</label>
+                        <div class="form-check"  id="vacationRadio">
+                            <input id="duration1" class="form-check-input" type="radio" name="duration" value="vacation" checked>
                             <label for="duration1" class="form-check-label">Vacation</label>
+                        </div>
+                        <div class="form-check">
+                            <input id="duration2" class="form-check-input" type="radio" name="duration" value="short">
+                            <label for="duration2" class="form-check-label">Short trip</label>
                         </div>
                     </div>
                     <br>
@@ -100,8 +96,22 @@
                 </p>
             </div>
 
+            <div id="genericSuggestionShort" class="suggestion">
+                <h1>This is your generic dream short trip!</h1>
+                <p>
+                    This is a generic vacation suggestion.
+                </p>
+            </div>
+
             <div id="adventureSuggestion" class="suggestion">
                 <h1>This is your adventure dream vacation!</h1>
+                <p>
+                    This is an adventure vacation suggestion.
+                </p>
+            </div>
+
+            <div id="adventureSuggestionShort" class="suggestion">
+                <h1>This is your adventure dream short trip!</h1>
                 <p>
                     This is an adventure vacation suggestion.
                 </p>
@@ -114,10 +124,10 @@
                 </p>
             </div>
 
-            <div id="relaxSuggestion" class="suggestion">
-                <h1>This is your relax dream vacation!</h1>
+            <div id="cityTourSuggestionShort" class="suggestion">
+                <h1>This is your city tour dream short trip!</h1>
                 <p>
-                    This is a relax vacation suggestion.
+                    This is a city tour vacation suggestion.
                 </p>
             </div>
 
@@ -127,5 +137,27 @@
                     This is an eventful vacation suggestion.
                 </p>
             </div>
+                
+            <div id="eventfulSuggestionShort" class="suggestion">
+                <h1>This is your eventful dream short trip!</h1>
+                <p>
+                    This is an eventful vacation suggestion.
+                </p>
+            </div>
+
+            <div id="relaxSuggestion" class="suggestion">
+                <h1>This is your relax dream vacation!</h1>
+                <p>
+                    This is a relax vacation suggestion.
+                </p>
+            </div>
+
+            <div id="relaxSuggestionShort" class="suggestion">
+                <h1>This is your relax dream short trip!</h1>
+                <p>
+                    This is a relax vacation suggestion.
+                </p>
+            </div>
+           
     </body>
 </html>
