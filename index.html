@@ -17,10 +17,75 @@
                 <div id="survey">
                 <form>
                     <div class="form-group">
-                        <label for="name1">Your name</label>
-                        <input id="name1" class="form-control" type="text">
+                        <label for="name">Your name</label>
+                        <input id="name" class="form-control" type="text">
                     </div>
-            
+                    <div class="form-group">
+                        <label for="sign">Zodiac sign</label>
+                        <select id="sign" class="form-control">
+                            <option disabled selected value> -- make selection -- </option>
+                            <option value="Aries">&#9800; Aries</option>
+                            <option value="Taurus">&#9801; Taurus</option>
+                            <option value="Gemini">&#9802; Gemini</option>
+                            <option value="Cancer">&#9803; Cancer</option>
+                            <option value="Leo">&#9804; Leo</option>
+                            <option value="Virgo">&#9805; Virgo</option>
+                            <option value="Libra">&#9806; Libra</option>
+                            <option value="Scorpio">&#9807; Scorpio</option>
+                            <option value="Sagittarius">&#9808; Sagittarius</option>
+                            <option value="Capricorn">&#9809; Capricorn</option>
+                            <option value="Aquarius">&#9810; Aquarius</option>
+                            <option value="Pisces">&#9811; Pisces</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Favorite subject in school</label>
+                        <select id="subject" class="form-control">
+                            <option disabled selected value> -- make selection -- </option>
+                            <option value="PE">PE</option>
+                            <option value="History">History</option>
+                            <option value="Science">Science</option>
+                            <option value="Art">Art</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Favorite color</label>
+                        <select id="color" class="form-control">
+                            <option disabled selected value> -- make selection -- </option>
+                            <option value="Red">Red</option>
+                            <option value="Orange">Orange</option>
+                            <option value="Yellow">Yellow</option>
+                            <option value="Green">Green</option>
+                            <option value="Turquoise">Turquoise</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Indigo">Indigo</option>
+                            <option value="Purple">Purple</option>
+                            <option value="Magenta">Magenta</option>
+                            <option value="Pink">Pink</option>
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Gray">Gray</option>
+                            <option value="Brown">Brown</option>
+                            <option value="Silver">Silver</option>
+                            <option value="Gold">Gold</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                            <label for="durationRadios">How long?</label>
+                        <div class="form-check" id="durationRadios">
+                            <input id="duration1" class="form-check-input" type="radio" name="duration" value="short" checked>
+                            <label for="duration1" class="form-check-label">Short trip</label>
+                        </div>
+                        <div class="form-check">
+                            <input id="duration2" class="form-check-input" type="radio" name="duration" value="weekend">
+                            <label for="duration2" class="form-check-label">Weekend</label>
+                        </div>
+                        <div class="form-check">
+                            <input id="duration1" class="form-check-input" type="radio" name="duration" value="vacation">
+                            <label for="duration1" class="form-check-label">Vacation</label>
+                        </div>
+                    </div>
+                    <br>
                     <button type="submit" class="btn">Show me suggested vacation!</button>
                 </form>
             </div>

@@ -4,7 +4,7 @@ $(document).ready(function() {
   
       $(".name1").text(name1Input);
   
-      $("#suggestion").show();
+      $("#suggestion").toggle();
   
       event.preventDefault();
     });
