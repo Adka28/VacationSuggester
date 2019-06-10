@@ -1,10 +1,12 @@
 $(document).ready(function() {
     $("#survey form").submit(function(event) {
-      var name1Input = $("input#name1").val();
+      var nameInput = $("input#name").val();
   
-      $(".name1").text(name1Input);
+      $(".nameInput").text(nameInput);
   
-      $("#suggestion").toggle();
+      $(".suggestion").fadeOut();
+      
+      $("#relaxSuggestion").fadeIn();
   
       event.preventDefault();
     });
